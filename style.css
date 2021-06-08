@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+	background-color: #EEEEEE;
+	
+   
+}
+.container{
+    width:900px;
+    height:auto;
+    margin:0 auto;
+	
+    
+}
+body{
+    font-family: 'PT Serif', serif;
+	
+}
+.header{
+	
+}
+.header-bio{
+    margin-top:100px;
+    right:0;
+    left:20px;
+    float:left;
+    width:40%;
+	text-align:center;
+}
+.btn{
+    padding:0.5rem 2rem;
+    border:1px #ccc solid;
+    display: inline-block;
+    margin:2rem 0 0;
+    text-decoration: none;
+    transition: background 500ms ease;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    background:#f4f4f4;
+}
+
+
+.header-img img{
+    width:60%;
+    height: auto;
+
+}
+/* works section start */
+.work-section h1{
+    text-align: center;
+    padding:10px;
+    background-color:#2B3A49;
+    color:white;
+}
+.work-section img{
+    width:100%;
+    display: block;
+}
+
+/* works section ends */
+
+/* photo click section start here */
+
+
+.photo h1,p{
+    text-align: center;
+    padding:5px;
+    padding-bottom: 10px;
+    color:gray;
+    background-color:#EEEEEE;
+}
+
+.photo img{
+    width:100%;
+    display:block;
+}
+
+/* photo click section ends here */
+
+/* footer section starts here */
+
+.footer-ends{
+    margin-top:50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer-ends p{
+    text-transform: capitalize;
+
+}
+/* footer section ends here */
